@@ -1,0 +1,65 @@
+.body{background-color: white;}
+
+header{background: black; margin-top:0px;}
+
+
+body {margin:0;}
+ul {list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.li_1 {
+  float: right; font-size: 1vw; font-family:verdana;
+}
+
+.li_2 {
+  float: left; font-size: 18px;
+}
+
+section{height: 70vh; width: auto;}
+
+
+
+.li_1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1vw 1.5vw;
+  text-decoration: none;
+}
+
+.li_1 a:hover:not(.active) {
+  background-color:#929292; color: white;
+}
+
+.img_1 {width: 12vw; height: auto;
+  text-align: center;
+  text-decoration: none;}
+
+.active {
+  background-color: #bebebe;
+}
+
+.svg_1{width:2vw; height: auto;}
+
+.svg_2{width:5vw; height: auto;}
+
+.footer-company{font-size:1.2vw; font-family:verdana; color: white;}
+
+.footer-company-about{font-size:1.2vw; font-family:verdana; color: white;}
+
+.footer{background: black; width: 100%; text-align: left; font-size: 16px; font-weight: 500; padding: 20px 50px;}
+
+.footer .footer-left, 
+.footer .footer-right{display:inline-block; vertical-align: top;}
+
+.footer .footer-right{width: 20%;}
+
+.footer .footer-company-about{line-height: 20px; color: white; font-size: 14px; font-weight: normal; margin: 0;}
+
