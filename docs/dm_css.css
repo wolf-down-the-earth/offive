@@ -42,7 +42,7 @@ section{height: 70vh; width: auto;}
   text-decoration: none;}
 
 .li_1 a:hover:not(.active) {
-  background-color:#929292; color: white;
+  background-color:#929292; color: 29E1BD; transition: 250ms:
 }
 
 .img_1 {width: 20vw; height: auto;
