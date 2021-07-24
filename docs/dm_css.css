@@ -27,7 +27,7 @@ ul {list-style-type: none;
 
 .section_2{height: 110vh; width: auto;}
 
-
+video {width: 100%; height: auto; position: relative; margin-top: 0%;}
 
 .li_1 a {
   display: block;
@@ -89,7 +89,7 @@ ul {list-style-type: none;
 .container_2 {
   position: relative;
   overflow: hidden;
-  width:auto; margin-left: 0px;margin-top: 14.5vh;
+  width:auto; ;margin-top: 5%;
 }
 
 
