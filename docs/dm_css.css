@@ -14,6 +14,7 @@ ul {list-style-type: none;
   width: 100%;
 }
 
+.youtube{margin-top: 5em;}
 .li_1 {
   float: right; font-size: 1vw; font-family:verdana;
 }
@@ -22,7 +23,9 @@ ul {list-style-type: none;
   float: left; font-size: 18px;
 }
 
-section{height: 70vh; width: auto;}
+.section_1{height: 70vh; width: 100%;}
+
+.section_2{height: 110vh; width: auto;}
 
 
 
@@ -34,6 +37,10 @@ section{height: 70vh; width: auto;}
   text-decoration: none;
 }
 
+.svg_1 a {color: white;}
+
+
+
 .li_2 a {
   display: block;
   color: white;
@@ -42,8 +49,15 @@ section{height: 70vh; width: auto;}
   text-decoration: none;}
 
 .li_1 a:hover:not(.active) {
-  background-color:#929292; color: #29E1BD; transition: 250ms;
+  background-color:#929292;  color:white; transition: 1000ms; 
 }
+
+.li_2 a:hover:not(.active) {
+  background-color:black; transition: 500ms;}
+
+.svg_1 (.active){color:#29E1BD; transition: 1000ms;}
+
+
 
 .img_1 {width: 20vw; height: auto;
   text-align: center; margin-bottom: auto; margin-top: auto;vertical-align: middle;
@@ -55,19 +69,27 @@ section{height: 70vh; width: auto;}
 
 .svg_1{width:2vw; height: auto;}
 
-.svg_2{width:5vw; height: auto;}
+.svg_2{width:3.5vw; height: 2.5vw;}
+
+.svg_2:hover {color: red;}
 
 .footer-company{font-size:1.2vw; font-family:verdana; color: white;}
 
 .footer-company-about{font-size:1.2vw; font-family:verdana; color: white;}
 
-.footer{background: black; width: 100%; text-align: left; font-size: 16px; font-weight: 500; padding: 20px 50px;}
+.footer{background: black; width: auto; height:auto; font-size: 16px; font-weight: 500; padding: 3vh 50px; margin-bottom: auto;}
 
-.footer .footer-left, 
-.footer .footer-right{display:inline-block; vertical-align: top;}
 
-.footer .footer-right{width: 20%;}
 
-.footer .footer-company-about{line-height: 20px; color: white; font-size: 14px; font-weight: normal; margin: 0;}
+
+.footer .footer-right{ display: inline-block; vertical-align: top; width: 100%; height: auto; margin-bottom: auto;}
+
+.footer .footer-company-about{line-height: 6vh; color: white; font-size: 1.2vw; font-weight: normal; margin: 0; font-family: verdana; float: right; margin-bottom: 0; margin-right: 5vw;}
+
+.container_2 {
+  position: relative;
+  overflow: hidden;
+  width:auto; margin-left: 0px;margin-top: 14.5vh;
+}
 
 
