@@ -34,12 +34,19 @@ section{height: 70vh; width: auto;}
   text-decoration: none;
 }
 
+.li_2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.3vw 1.5vw;
+  text-decoration: none;}
+
 .li_1 a:hover:not(.active) {
   background-color:#929292; color: white;
 }
 
-.img_1 {width: 12vw; height: auto;
-  text-align: center;
+.img_1 {width: 20vw; height: auto;
+  text-align: center; margin-bottom: auto; margin-top: auto;vertical-align: middle;
   text-decoration: none;}
 
 .active {
@@ -62,4 +69,6 @@ section{height: 70vh; width: auto;}
 .footer .footer-right{width: 20%;}
 
 .footer .footer-company-about{line-height: 20px; color: white; font-size: 14px; font-weight: normal; margin: 0;}
+
+
 
