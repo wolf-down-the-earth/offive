@@ -4,7 +4,7 @@ header{background: black; margin-top:0px;}
 
 
 body {margin:0;}
-ul {list-style-type: none;
+.ul {list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -12,6 +12,15 @@ ul {list-style-type: none;
   position: fixed;
   top: 0;
   width: 100%;
+}
+.ul_2 {list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+  margin-top: -1.2%;
+  width: auto;
+  min-width: auto;
 }
 
 .youtube{margin-top: 5em;}
@@ -23,9 +32,24 @@ ul {list-style-type: none;
   float: left; font-size: 18px;
 }
 
+.li_3 {
+ float: right; font-size: 1vw; font-family:verdana; 
+}
+
+.li_3 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1vw 2vw;
+  text-decoration: none;
+  width: 12.5vw;
+  margin-right: 0;
+}
+
+
 .section_1{height: 70vh; width: 100%;}
 
-.section_2{height: 110vh; width: auto;}
+.section_2{height: 300vh; width: auto;}
 
 video {width: 100%; height: auto; position: relative; margin-top: 0%;}
 
@@ -59,6 +83,12 @@ video {width: 100%; height: auto; position: relative; margin-top: 0%;}
 
 
 
+.li_3 a:hover:not(.active) {
+  background-color:black;  color:#0cedc1; transition: 1000ms; font-size:1.5vw;
+}
+.youtube_1{display: flex; justify-content: center; width:auto;}
+
+.youtube_2{display: flex; justify-content: center; width: auto;}
 .img_1 {width: 20vw; height: auto;
   text-align: center; margin-bottom: auto; margin-top: auto;vertical-align: middle;
   text-decoration: none;}
@@ -92,4 +122,11 @@ video {width: 100%; height: auto; position: relative; margin-top: 0%;}
   width:auto; ;margin-top: 5%;
 }
 
+.div_2{width: auto; background-color: grey; margin-top: -0.4%; height: auto; font-size: 5vw; margin-left: 0}
 
+.table_1 {
+	display: table; margin-left: 0.2vw; /* Allow the centering to work */
+}
+
+
+.youtubeframe{width: 80vw; height: 90vh;}
